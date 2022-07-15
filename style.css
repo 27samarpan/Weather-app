@@ -5,7 +5,7 @@ body{
     height: 100vh;
     margin: 0px;
     background-color: rgb(41, 44, 44);
-    background-image: url('https:/source.unsplash.com/1600x900/?weather,delhi');
+    background-image: url('https://images.unsplash.com/photo-1626249926426-294b276ebfea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8d2VhdGhlcixEZWxoaXx8fHx8fDE2NTc4NzkzOTk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
     background-size: cover;
     font-family: 'Nunito', sans-serif;
     word-spacing: 2px;
