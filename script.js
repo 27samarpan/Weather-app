@@ -28,7 +28,7 @@ let weather = {
         document.querySelector(".humidity").innerHTML = "Humidity: " + humidity + "%";
         document.querySelector(".Wind").innerHTML = " Wind Speed: " + speed + "Km/h";
         document.querySelector(".weather").classList.remove("loading");
-        document.body.style.backgroundImage = "url('https:/source.unsplash.com/1600x900/?weather," + name + " ')";
+        document.body.style.backgroundImage = "url('https:/source.unsplash.com/1600x900/?weather,"+name+" ')";
     },
     search: function () {
         this.fetchWeather(document.querySelector(".search-bar").value);
